@@ -1,0 +1,12 @@
+.footer__button {
+    margin: 0;
+    padding: 0;
+    height: 34px;
+    text-align: center;
+    background: transparent;
+    color: #191D2C;
+    cursor: pointer;
+    font-size: 10px;
+    text-transform: uppercase;
+    border: 1px solid #E1FD2C;
+}

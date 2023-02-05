@@ -1,0 +1,6 @@
+.press__container_show {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+}

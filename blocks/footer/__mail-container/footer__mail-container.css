@@ -1,0 +1,6 @@
+.footer__mail-container {
+    display: grid;
+    grid-template-columns: 75% 25%;
+    margin: 0;
+    padding: 0;
+}

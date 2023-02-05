@@ -1,0 +1,15 @@
+.facts__point {
+    margin: 0;
+    padding: 0;
+    font-size: 22px;
+    line-height: 1.4;
+    font-weight: 300;
+    list-style: none;
+    color: #E1FD2C;
+}
+  
+@media screen and (max-width: 520px) {
+    .facts__point {
+        font-size: 16px;
+    }
+}

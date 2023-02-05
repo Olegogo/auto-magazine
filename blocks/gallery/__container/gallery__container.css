@@ -1,0 +1,10 @@
+.gallery__container {
+    overflow: hidden;
+    border-right: 1px solid #E1FD2C;
+}
+
+@media screen and (max-width: 768px) {
+    .gallery__container {
+        border-right: none;
+    }
+}

@@ -1,0 +1,26 @@
+.gallery__button-next {
+    margin: 0;
+    padding: 0;
+    width: 42px;
+    height: 42px;
+    background-image: url("../../../images/arrow-next.svg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 42px;
+    cursor: pointer;
+    transition: 0.4s;
+    font-size: 0;
+    border: none;
+}
+
+.gallery__button-next:hover {
+    opacity: .6;
+}
+
+@media screen and (max-width: 520px) {
+    .gallery__button-next {
+        width: 24px;
+        height: 20px;
+        background-size: 24px;
+    }
+}

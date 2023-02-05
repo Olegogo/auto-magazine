@@ -1,0 +1,10 @@
+.press__container {
+    padding: 50px;
+    overflow: hidden;
+}
+
+@media screen and (max-width: 520px) {
+    .press__container {
+        padding: 20px;
+    }
+}

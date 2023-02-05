@@ -1,0 +1,15 @@
+.header {
+    padding: 0;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    min-width: 320px;
+    height: 70px;
+    background-color: #191D2C;
+    border-bottom: 1px solid #E1FD2C;
+    z-index: 10;
+}
