@@ -16,7 +16,6 @@
 @media screen and (max-width: 768px) {
     .header__menu-list {
         width: 26px;
-        margin: 0 0 0 34px;
         opacity: 0;
     }
 

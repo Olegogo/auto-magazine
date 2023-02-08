@@ -1,0 +1,13 @@
+.footer__container-title {
+    margin: 0;
+    padding: 0;
+    font-size: 46px;
+    font-weight: 400;
+    color: #E1FD2C;
+}
+  
+@media screen and (max-width: 520px) {
+    .footer__container-title {
+        font-size: 26px;
+    }
+}

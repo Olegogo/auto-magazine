@@ -1,0 +1,17 @@
+.footer__container-subs {
+    padding: 50px;
+    border-right: 1px solid #E1FD2C;
+}
+
+@media screen and (max-width: 834px) {
+    .footer__container-subs {
+        border-right: none;
+        padding-right: 0;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .footer__container-subs {
+        padding: 20px 20px 0 20px;
+    }
+}
