@@ -6,6 +6,15 @@
     display: grid;
     grid-template-columns: repeat(2, 50%);
     border-bottom: 1px solid #E1FD2C;
+    border-left: 1px solid #E1FD2C;
+    border-right: 1px solid #E1FD2C;
+}
+
+@media screen and (max-width: 1440px) {
+    .gallery {
+        border-left: none;
+        border-right: none;
+    }
 }
 
 @media screen and (max-width: 768px) {
