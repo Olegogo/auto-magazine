@@ -1,0 +1,12 @@
+.header__menu-link {
+    text-decoration: none;
+    color: rgba(225, 253, 44, 1);
+    transition: 0.4s;
+    font-size: 12px;
+    line-height: 1.3;
+    text-transform: uppercase;
+}
+
+.header__menu-link:hover {
+    color: rgba(225, 253, 44, 0.6);
+}

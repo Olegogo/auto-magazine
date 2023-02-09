@@ -1,0 +1,11 @@
+.facts__container-minus {
+    margin: 0;
+    padding: 0;
+    border-right: 1px solid #E1FD2C;
+}
+
+@media screen and (max-width: 1440px) {
+    .facts__container-minus {
+        border-right: none;
+    }
+}

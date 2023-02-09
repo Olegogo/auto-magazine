@@ -1,0 +1,12 @@
+.hero__description {
+    margin: auto;
+    padding: 0;
+    text-align: center;
+}
+
+@media screen and (max-width: 1024px) {
+    .hero__description {
+        margin: 0 auto;
+        max-width: 100%;
+    }
+}

@@ -1,0 +1,25 @@
+.facts__container-info {
+    margin: 0;
+    padding: 50px;
+    border-right: 1px solid #E1FD2C;
+    border-left: 1px solid #E1FD2C;
+}
+
+@media screen and (max-width: 1440px) {
+    .facts__container-info {
+        border-left: none;
+    }
+}
+
+@media screen and (max-width: 940px) {
+    .facts__container-info {
+        border-right: none;
+        border-bottom: 1px solid #E1FD2C;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    .facts__container-info {
+        padding: 20px;
+    }
+}

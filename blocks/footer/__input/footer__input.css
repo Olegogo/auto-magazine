@@ -1,0 +1,24 @@
+.footer__input {
+    border: 0;
+    outline: none;
+    height: 34px;
+    padding-left: 12px;
+    box-sizing: border-box;
+    background-color: #191D2C;
+    font-size: 9px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+    color: #E1FD2C;
+    border-right: 1px solid #E1FD2C;
+}
+
+.footer__input::placeholder {
+    color: #E1FD2C;
+}
+  
+@media screen and (max-width: 520px) {
+    .footer__input {
+        max-width: 480px;
+    }
+}

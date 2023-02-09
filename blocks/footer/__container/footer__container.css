@@ -1,0 +1,17 @@
+.footer__container {
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+@media screen and (max-width: 640px) {
+    .footer__container {
+        max-width: 100%;
+        padding: 20px;
+        margin: 120px auto 0;
+        gap: 20px;
+        align-items: flex-start;
+    }
+}

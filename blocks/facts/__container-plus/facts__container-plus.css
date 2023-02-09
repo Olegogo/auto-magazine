@@ -1,0 +1,12 @@
+.facts__container-plus {
+    margin: 0;
+    padding: 0;
+    border-right: 1px solid #E1FD2C;
+}
+
+@media screen and (max-width: 520px) {
+    .facts__container-plus {
+        border-right: none;
+        border-bottom: 1px solid #E1FD2C;
+    }
+}

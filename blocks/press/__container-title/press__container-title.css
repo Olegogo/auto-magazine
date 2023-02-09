@@ -1,0 +1,14 @@
+.press__container-title {
+    margin: 0;
+    padding: 0;
+    font-size: 46px;
+    line-height: 1;
+    font-weight: 400;
+    color: #E1FD2C;
+}
+  
+@media screen and (max-width: 768px) {
+    .press__container-title {
+        display: none;
+    }
+}

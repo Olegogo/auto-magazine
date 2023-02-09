@@ -1,0 +1,32 @@
+.hero {
+    max-width: 100%;
+    min-width: 280px;
+    padding: 220px 0 150px;
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    border-bottom: 1px solid #E1FD2C;
+    border-left: 1px solid #E1FD2C;
+    border-right: 1px solid #E1FD2C;
+}
+
+@media screen and (max-width: 1440px) {
+    .hero {
+        border-left: none;
+        border-right: none;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .hero {
+        padding: 170px 34px 100px 34px;
+        grid-template-columns: repeat(1, 100%);
+        gap: 100px;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    .hero {
+        padding: 130px 20px 60px 20px;
+        gap: 60px;
+    }
+}

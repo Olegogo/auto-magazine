@@ -1,0 +1,19 @@
+.footer__subscribe {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    max-width: 340px;
+    border: 0;
+    border-top: 1px solid #E1FD2C;
+    border-bottom: 1px solid #E1FD2C;
+    border-left: 1px solid #E1FD2C;
+    background-color: #E1FD2C;
+    row-gap: 1px;
+}
+
+@media screen and (max-width: 620px) {
+    .footer__subscribe {
+        max-width: 100%;
+    }
+}

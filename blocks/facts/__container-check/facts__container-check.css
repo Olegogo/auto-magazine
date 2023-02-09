@@ -1,0 +1,19 @@
+.facts__container-check {
+    min-width: 320px;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+}
+
+@media screen and (max-width: 940px) {
+    .facts__container-check {
+        min-height: 550px;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    .facts__container-check {
+        grid-template-columns: repeat(1, 100%);
+    }
+}

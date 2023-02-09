@@ -1,0 +1,14 @@
+.press__button-dot {
+    width: 0.4em;
+    height: 0.85em;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    border: 1px solid #E1FD2C;
+    cursor: pointer;
+    background: transparent;
+}
+
+.active, .press__button-dot:hover {
+    background: #E1FD2C;
+}
