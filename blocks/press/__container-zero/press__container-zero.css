@@ -1,0 +1,10 @@
+.press__container-zero {
+    padding: 50px;
+    border-right: 1px solid #E1FD2C;
+}
+
+@media screen and (max-width: 768px) {
+    .press__container-zero {
+        display: none;
+    }
+}

@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1">
     <title>Auto-magazine</title>
     <link rel="stylesheet" href="pages/index.css" />
-    <script src="./scripts/main.js" defer></script>
+    <script src="./scripts/index.js" defer></script>
 </head>
 <body class="page">
     <header class="header">
@@ -22,7 +22,7 @@
             </li>
         </ul>
         <a href="#" class="header__logo">
-            <img src="./images/logo.svg" alt="Логотип Auto-magazine" class="header__logo-img">
+            <img src="./images/logo.svg" alt="Логотип Auto-magazine">
         </a>
         <button class="header__menu-icon" type="button">
         </button>
@@ -39,23 +39,23 @@
             <button type="button" value="Подробнее" class="hero__button-bottom">Подробнее</button>
         </section>
         <section class="facts">
-            <div class="facts__container_info">
+            <div class="facts__container-info">
                 <p class="facts__text"><span class="facts__mark">VW T1 Electro:</span> Отделение Volkswagen Commercial Vehicles представило концепт e-Bulli: классический вэн T1 1966 года 
-                    с электрической силовой установкой. <br>По словам производителя, проект получит коммерческое продолжение, и через фирму-партнера eClassics наборы для конверсии микроавтобусов в электрокары 
+                    с электрической силовой установкой. По&nbsp;словам производителя, проект получит коммерческое продолжение, и через фирму-партнера eClassics наборы для конверсии микроавтобусов в электрокары 
                     и уже готовые машины будут продавать частным клиентам.
                 </p>
             </div>
-            <div class="facts__container_check">
-                <div class="facts__container_plus">
-                    <h3 class="facts__title">ПЛЮСЫ</h3>
+            <div class="facts__container-check">
+                <div class="facts__container-plus">
+                    <h2 class="facts__title">ПЛЮСЫ</h2>
                     <ul class="facts__list">
                         <li class="facts__point">+ Экологичный</li>
                         <li class="facts__point">+ Экономный</li>
                         <li class="facts__point">+ Тихий</li>
                     </ul>
                 </div>
-                <div class="facts__container_minus">
-                    <h3 class="facts__title">МИНУСЫ</h3>
+                <div class="facts__container-minus">
+                    <h2 class="facts__title">МИНУСЫ</h2>
                     <ul class="facts__list">
                         <li class="facts__point">- Дорогой</li>
                         <li class="facts__point">- Подзарядка</li>
@@ -65,32 +65,32 @@
         </section>
         <section class="gallery">
             <div class="gallery__container">
-                <div class="gallery__container_show">
-                    <img src="./images/volkswagen_photo_2.png" alt="Фото едущего Volkswagen" class="gallery__container_img">
-                    <img src="./images/volkswagen_photo_3.png" alt="Фото едущего Volkswagen" class="gallery__container_img">
-                    <img src="./images/volkswagen_photo_4.png" alt="Фото едущего Volkswagen" class="gallery__container_img">
+                <div class="gallery__container-show">
+                    <img src="./images/volkswagen_photo_2.png" alt="Фото едущего Volkswagen" class="gallery__container-img">
+                    <img src="./images/volkswagen_photo_3.png" alt="Фото едущего Volkswagen" class="gallery__container-img">
+                    <img src="./images/volkswagen_photo_4.png" alt="Фото едущего Volkswagen" class="gallery__container-img">
                 </div>
-                <div class="gallery__container_slider">
-                    <h2 class="gallery__container_title">Галерея</h2>
-                    <div class="gallery__container_control">
-                        <div class="gallery__button-prev" type="button" id="slide-prev"></div>
-                        <div class="gallery__button-next" type="button" id="slide-next"></div>
+                <div class="gallery__container-slider">
+                    <h2 class="gallery__container-title">Галерея</h2>
+                    <div class="gallery__container-control">
+                        <div class="gallery__button-prev" id="slide-prev"></div>
+                        <div class="gallery__button-next" id="slide-next"></div>
                     </div>
                 </div>
             </div>
-            <div class="gallery__container_zero"></div>
+            <div class="gallery__container-zero"></div>
         </section>
         <section class="press">
-            <div class="press__container_zero">
-                <h2 class="press__container_title">Пресса</h2>
+            <div class="press__container-zero">
+                <h2 class="press__container-title">Пресса</h2>
             </div>
             <div class="press__container">
-                <div class="press__container_show">
-                    <p class="press__container_text"><span class="press__container_mark">Engadget:</span> VW’s e-BULLI concept shows how your classic van can become an EV.</p>
-                    <p class="press__container_text"><span class="press__container_mark">Drive.ru:</span> Вэн Volkswagen e-Bulli скрестил классику с современной техникой.</p>
+                <div class="press__container-show">
+                    <p class="press__container-text"><span class="press__container-mark">Engadget:</span> VW’s e-BULLI concept shows how your classic van can become an EV.</p>
+                    <p class="press__container-text"><span class="press__container-mark">Drive.ru:</span> Вэн Volkswagen e-Bulli скрестил классику с современной техникой.</p>
                 </div>
-                <div class="press__control_items">
-                    <div class="press__container_control">
+                <div class="press__container-items">
+                    <div class="press__container-control">
                         <button class="press__button-dot" type="button" id="message-prev" onclick="currentSlide(1)"></button>
                         <button class="press__button-dot" type="button" id="message-next" onclick="currentSlide(2)"></button>
                     </div>
@@ -100,9 +100,9 @@
         </section>
     </main>
     <footer class="footer">
-        <div class="footer__container_subs">
-            <h2 class="footer__container_title">Подписка</h2>
-            <p class="footer__container_text">На новые спецвыпуски машин.</p>
+        <div class="footer__container-subs">
+            <h2 class="footer__container-title">Подписка</h2>
+            <p class="footer__container-text">На новые спецвыпуски машин.</p>
             <form class="footer__form" name="Подписка">
                 <fieldset class="footer__subscribe">
                     <div class="footer__name-container">

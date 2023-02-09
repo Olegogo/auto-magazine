@@ -12,6 +12,7 @@
     opacity: 1;
     transition: 0.4s;
     font-size: 15px;
+    letter-spacing: 1px;
     text-transform: uppercase;
 }
 

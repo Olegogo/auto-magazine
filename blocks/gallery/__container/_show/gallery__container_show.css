@@ -1,7 +1,0 @@
-.gallery__container_show {
-    display: flex;
-    flex-direction: row;
-    margin: 0;
-    padding: 0;
-    transition: all ease-in-out .4s;
-}

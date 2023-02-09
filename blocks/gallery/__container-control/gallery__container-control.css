@@ -1,0 +1,11 @@
+.gallery__container-control {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+@media screen and (max-width: 520px) {
+    .gallery__container-control {
+        gap: 16px;
+    }
+}
